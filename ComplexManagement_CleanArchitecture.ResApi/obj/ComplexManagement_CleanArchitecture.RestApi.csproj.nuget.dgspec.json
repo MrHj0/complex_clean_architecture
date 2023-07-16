@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.ResApi\\ComplexManagement_CleanArchitecture.RestApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.EFPresistence\\ComplexManagement_CleanArchitecture.EFPresistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.EFPresistence\\ComplexManagement_CleanArchitecture.EFPresistence.csproj",
+        "projectName": "ComplexManagement_CleanArchitecture.EFPresistence",
+        "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.EFPresistence\\ComplexManagement_CleanArchitecture.EFPresistence.csproj",
+        "packagesPath": "C:\\Users\\v.najafi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.EFPresistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\v.najafi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\v.najafi\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Service\\ComplexManagement_CleanArchitecture.Service.csproj": {
+                "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Service\\ComplexManagement_CleanArchitecture.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Entities\\ComplexManagement_CleanArchitecture.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Entities\\ComplexManagement_CleanArchitecture.Entities.csproj",
+        "projectName": "ComplexManagement_CleanArchitecture.Entities",
+        "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Entities\\ComplexManagement_CleanArchitecture.Entities.csproj",
+        "packagesPath": "C:\\Users\\v.najafi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\v.najafi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\v.najafi\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.ResApi\\ComplexManagement_CleanArchitecture.RestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.ResApi\\ComplexManagement_CleanArchitecture.RestApi.csproj",
+        "projectName": "ComplexManagement_CleanArchitecture.RestApi",
+        "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.ResApi\\ComplexManagement_CleanArchitecture.RestApi.csproj",
+        "packagesPath": "C:\\Users\\v.najafi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.ResApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\v.najafi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\v.najafi\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.EFPresistence\\ComplexManagement_CleanArchitecture.EFPresistence.csproj": {
+                "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.EFPresistence\\ComplexManagement_CleanArchitecture.EFPresistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Service\\ComplexManagement_CleanArchitecture.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Service\\ComplexManagement_CleanArchitecture.Service.csproj",
+        "projectName": "ComplexManagement_CleanArchitecture.Service",
+        "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Service\\ComplexManagement_CleanArchitecture.Service.csproj",
+        "packagesPath": "C:\\Users\\v.najafi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\v.najafi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\v.najafi\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Entities\\ComplexManagement_CleanArchitecture.Entities.csproj": {
+                "projectPath": "C:\\Users\\v.najafi\\Desktop\\ComplexManagement_CleanArchitecture\\ComplexManagement_CleanArchitecture.Entities\\ComplexManagement_CleanArchitecture.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

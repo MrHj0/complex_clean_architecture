@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zEOF7HBzu424f6ckXL7GNDP6bSQAVcLAov0m3FBrXkg=",
+  "Source": "ComplexManagement_CleanArchitecture.RestApi",
+  "BasePath": "_content/ComplexManagement_CleanArchitecture.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
