@@ -13,6 +13,7 @@ namespace ComplexManagement_CleanArchitecture.Service.Blocks.Contracts
         void Add(Block block);
         void UpdateBlocksUnitCount(List<Block> blocks);
         int GetComplexUnitCountByBlockId(int blockId);
+        int GetBlockRegisteredUnitCountByBlockId(int blockId);
         bool isDuplicatedUnitNameInBlock(string name);
         bool IsBlockExsistByBlockId(int blockId);
         void EditBlock(Block block);

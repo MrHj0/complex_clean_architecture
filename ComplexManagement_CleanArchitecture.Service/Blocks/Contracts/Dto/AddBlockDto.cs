@@ -12,6 +12,7 @@ namespace ComplexManagement_CleanArchitecture.Service.Blocks.Contracts.Dto
         [Required,MaxLength(50)]
         public string Name { get; set; }
         [Required]
+        [Range(1,1000)]
         public int UnitCount { get; set; }
         [Required]
         public int ComplexId { get; set; }

@@ -50,6 +50,13 @@ namespace ComplexManagement_CleanArchitecture.EFPresistence.Blocks
                 .FirstOrDefault();
         }
 
+        public int GetBlockRegisteredUnitCountByBlockId(int blockId)
+        {
+            return _blocks.Where(_ => _.Id == blockId)
+                .Select(_ => _.Units.Count())
+                .FirstOrDefault();
+        }
+
         public GetBlockWithUnitDetailsDto GetBlockWithUnitDetailsByBlockId(int blockId)
         {
             var block = _blocks

@@ -81,11 +81,6 @@ namespace ComplexManagement_CleanArchitecture.Service.Blocks
                 throw new BlockNotFoundException();
             }
 
-            if(dto.UnitCount > 1000 || dto.UnitCount < 4)
-            {
-                throw new BlockUnitCountOutOfRangeException();
-            }
-
             var isDuplicatedName = _complexRepository
                 .IsDuplicatedBlockNameForEditName(blockId, dto.Name);
             if(isDuplicatedName)

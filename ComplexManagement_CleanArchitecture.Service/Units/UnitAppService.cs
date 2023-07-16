@@ -1,5 +1,6 @@
 ﻿using ComplexManagement_CleanArchitecture.Entities;
 using ComplexManagement_CleanArchitecture.Service.Blocks.Contracts;
+using ComplexManagement_CleanArchitecture.Service.Blocks.Exceptions;
 using ComplexManagement_CleanArchitecture.Service.Contracts;
 using ComplexManagement_CleanArchitecture.Service.Units.Contracts;
 using ComplexManagement_CleanArchitecture.Service.Units.Contracts.Dto;
@@ -28,11 +29,25 @@ namespace ComplexManagement_CleanArchitecture.Service.Units
         }
         public void Add(AddUnitDto dto)
         {
+            var block = _blockRepository
+                .GetBlockByBlockId(dto.BlockId);
+            if(block == null)
+            {
+                throw new BlockNotFoundException();
+            }
+
             var isDuplicatedName = _blockRepository
                 .isDuplicatedUnitNameInBlock(dto.Name);
             if(isDuplicatedName)
             {
                 throw new DuplicatedUnitNameException();
+            }
+
+            var blockRegisteredUnitCount = _blockRepository
+                .GetBlockRegisteredUnitCountByBlockId(dto.BlockId);
+            if(blockRegisteredUnitCount >= block.UnitCount)
+            {
+                throw new BlockCapacityIsFullException();
             }
 
             var unit = new Unit
